@@ -1,12 +1,12 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "Scheduling Made Easy",
+  "text": "Our scheduling software ensures your team is always on the same wavelength with a shared calendar and real-time updates, fostering a seamless and unified approach to your goals.",
   "button": [
     {
       "title": "Explore"
     },
     {
-      "title": "Learn more",
+      "title": "Get Started",
       "color": "#fff"
     }
   ]

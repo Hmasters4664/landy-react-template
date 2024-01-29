@@ -27,7 +27,7 @@ export const Styles = createGlobalStyle`
         padding:0;
         border: 0;
         outline: 0;
-        background: #fff;
+        background: #f9df16;
         overflow-x: hidden;
     }
 

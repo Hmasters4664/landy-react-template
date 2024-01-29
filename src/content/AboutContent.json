@@ -1,16 +1,16 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Works with the tools you use",
+  "text": "Our scheduling tool efficiently integrates with email and Google Calendar, with more integrations coming soon.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
-      "icon": "notes.svg"
+      "title": "Email",
+      "content": "Send and recieve email updates to keep everyone on the same page.",
+      "icon": "icons8-email-48.png"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
-      "icon": "notes.svg"
+      "title": "Google Calendar",
+      "content": "Set appointments and reminders with Google Calendar. Easily from our app",
+      "icon": "calendar.png"
     }
   ]
 }
