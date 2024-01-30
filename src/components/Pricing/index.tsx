@@ -23,6 +23,7 @@ interface PriceBlockProps {
   users: string;
   features: string;
   features2: string;
+  id: string;
   t: TFunction;
 }
 export const PriceBlock = ({
@@ -31,10 +32,11 @@ export const PriceBlock = ({
   users,
   features,
   features2,
+  id,
   t,
 }: PriceBlockProps) => {
   return (
-    <MiddleBlockSection>
+    <MiddleBlockSection id={id}>
       <Card
         hoverable
         style={{ width: 500, border: "2px solid black" }}
@@ -64,7 +66,9 @@ export const PriceBlock = ({
         </ul>
 
         <ButtonWrapper>
-          <Button>{t("Get Started")}</Button>
+          <a href="http://app.bzeeb.net/register">
+            <Button>{t("Get Started")}</Button>
+          </a>
         </ButtonWrapper>
       </Card>
     </MiddleBlockSection>

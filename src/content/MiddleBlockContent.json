@@ -1,6 +1,10 @@
 {
-    "title": "Introduce your product quickly & effectively",
+    "title": "Simple to use, big impact",
     "text": "Any business that relies on maintaining an accurate schedule to deliver its services can benefit from our software. Whether you are just starting out or an experienced entrepreneur, B.Zee.B is designed to meet your needs.",
-    "button": "Get started"
+    "point1": "Easily create and manage a appointments for all your employees",
+    "point2": "Have full visibily of your employees' availability and appointments",
+    "point3": "Avoid scheaduling conflicts, double bookings and underutilization of your resources",
+    "point4": "Communicate any scheduling changes instantly"
+     
   }
   

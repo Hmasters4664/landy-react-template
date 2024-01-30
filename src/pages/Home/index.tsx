@@ -29,21 +29,24 @@ const Home = () => {
       <MiddleBlock
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}
-        button={MiddleBlockContent.button}
+        point1={MiddleBlockContent.point1}
+        point2={MiddleBlockContent.point2}
+        point3={MiddleBlockContent.point3}
+        point4={MiddleBlockContent.point4}
       />
       <ContentBlock
         direction="left"
         title={AboutContent.title}
         content={AboutContent.text}
         section={AboutContent.section}
-        icon="graphs.svg"
-        id="about"
+        icon="desktop_white.png"
+        id="features"
       />
       <ContentBlock
         direction="right"
         title={MissionContent.title}
         content={MissionContent.text}
-        icon="product-launch.svg"
+        icon="show.png"
         id="mission"
       />
       <ContentBlock
@@ -59,6 +62,7 @@ const Home = () => {
         users={PriceContent.users}
         features={PriceContent.features}
         features2={PriceContent.features2}
+        id="price"
       />
     </Container>
   );
