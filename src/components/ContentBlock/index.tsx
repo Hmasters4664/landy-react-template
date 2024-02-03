@@ -61,13 +61,11 @@ const ContentBlock = ({
                         id: number
                       ) => {
                         return (
-                          <Button
-                            key={id}
-                            color={item.color}
-                            onClick={() => scrollTo("about")}
-                          >
-                            {t(item.title)}
-                          </Button>
+                          <a href="http://app.bzeeb.net/register">
+                            <Button key={id} color={item.color}>
+                              {t(item.title)}
+                            </Button>
+                          </a>
                         );
                       }
                     )}

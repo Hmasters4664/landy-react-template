@@ -49,13 +49,6 @@ const Home = () => {
         icon="show.png"
         id="mission"
       />
-      <ContentBlock
-        direction="left"
-        title={ProductContent.title}
-        content={ProductContent.text}
-        icon="waving.svg"
-        id="product"
-      />
       <PriceBlock
         title={PriceContent.title}
         price={PriceContent.price}

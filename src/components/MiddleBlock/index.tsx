@@ -38,6 +38,8 @@ const MiddleBlock = ({
               <h6>{t(title)}</h6>
               <Content>{t(content)}</Content>
             </Col>
+          </ContentWrapper>
+          <ContentWrapper>
             <ul>
               <li>
                 <p>{t(point1)}</p>
