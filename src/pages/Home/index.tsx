@@ -55,6 +55,8 @@ const Home = () => {
         users={PriceContent.users}
         features={PriceContent.features}
         features2={PriceContent.features2}
+        features3={PriceContent.features3}
+        features4={PriceContent.features4}
         id="price"
       />
     </Container>

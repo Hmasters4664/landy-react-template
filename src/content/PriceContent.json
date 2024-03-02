@@ -1,7 +1,9 @@
 {
   "title": "Pro Plan",
-  "price": "$10",
-  "users": "10 Users",
-  "features": "Google Calender Integration",
-  "features2": "Email Integration"
+  "price": "$5",
+  "users": "Up to 10 Users per team",
+  "features": "Mobile and web access",
+  "features2": "Unlimited event creation and management",
+  "features3": "Automated statistics and analytics",
+  "features4": "Priority access to new integrations"
 }

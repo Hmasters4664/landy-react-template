@@ -23,6 +23,8 @@ interface PriceBlockProps {
   users: string;
   features: string;
   features2: string;
+  features3: string;
+  features4: string;
   id: string;
   t: TFunction;
 }
@@ -32,6 +34,8 @@ export const PriceBlock = ({
   users,
   features,
   features2,
+  features3,
+  features4,
   id,
   t,
 }: PriceBlockProps) => {
@@ -62,6 +66,9 @@ export const PriceBlock = ({
           </li>
           <li>
             <Content>{t(features2)}</Content>
+          </li>
+          <li>
+            <Content>{t(features3)}</Content>
           </li>
         </ul>
 
